@@ -1,0 +1,2 @@
+/Users/Dan/Development/caffe/build/tools/convert_imageset --resize_height=224 --resize_width=224 datasets/training_images/ datasets/training_list.txt datasets/training_set_lmdb
+

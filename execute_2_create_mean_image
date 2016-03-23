@@ -1,0 +1,1 @@
+/Users/Dan/Development/caffe/build/tools/compute_image_mean datasets/training_set_lmdb/ datasets/mean_training_image.binaryproto

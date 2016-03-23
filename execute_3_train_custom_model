@@ -1,0 +1,2 @@
+time /Users/Dan/Development/caffe/build/tools/caffe train -solver models/Custom_Model/solver.prototxt -weights models/Custom_Model/EmotiW_VGG_S.caffemodel | tee caffe_loss_history.txt
+

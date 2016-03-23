@@ -1,0 +1,30 @@
+# Ignore files ending with ~ (temporary files created by text editors)
+*~
+*.swp
+
+# Ignore files ending in .o or .a (object and archive files)
+*.[oa]
+
+# Ignore compiled python files
+*.pyc
+
+# Ignore all datasets, except emojis
+datasets/*
+!datasets/Emojis/
+
+# Ignore all models except CustomModel
+models/*
+!models/Custom_Model/
+
+# Ignore Caffe Models
+*.caffemodel
+
+# Ignore any spurious image, text, or document files
+# # Does not ignore .png so that emojis will be included
+*.jpg
+*.jpeg
+*.tiff
+*.doc
+*.docx
+
+

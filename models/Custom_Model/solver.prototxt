@@ -1,0 +1,21 @@
+net: "models/Custom_Model/train.prototxt"
+# test_iter specifies how many forward passes the test should carry out
+test_iter: 1
+# Carry out testing every X training iterations
+test_interval: 20
+# Learning rate and momentum parameters for Adam
+base_lr: 0.001
+momentum: 0.9
+momentum2: 0.999
+# Adam takes care of changing the learning rate
+lr_policy: "fixed"
+# Display every X iterations
+display: 10
+# The maximum number of iterations
+max_iter: 3000
+# snapshot intermediate results
+snapshot: 100
+snapshot_prefix: "snapshot"
+# solver mode: CPU or GPU
+type: "Adam"
+solver_mode: CPU
